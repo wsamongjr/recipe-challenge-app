@@ -6,13 +6,22 @@ import Banner from 'components/Banner';
 import MainContainer from 'components/MainContainer';
 import Introduction from 'components/Introduction';
 import './styles.css';
+import styled from 'styled-components';
+
+const StyledBanner = styled.div`
+    margin: 4%;
+    @media (${(props) => props.theme.mediaQuery.mobile}) {
+        margin 0;
+    }
+`;
 
 const RecipePage = () => {
     return (
-        <MainContainer>
-            <div className="recipe-page">
+        <MainContainer className="main-container">
+            <StyledBanner>
                 <Banner />
-
+            </StyledBanner>
+            <div className="recipe-page">
                 <Introduction />
 
                 <PreparationTime />

@@ -1,13 +1,14 @@
-import React from "react";
-import styled from "styled-components";
-import H2 from "components/H2";
-import Wrapper from "./Wrapper";
+import React from 'react';
+import styled from 'styled-components';
+import H2 from 'components/H2';
+import Wrapper from './Wrapper';
 
 const StyledPreparationTime = styled.div`
-    margin: 40px 40px;
+    margin: 32px 32px;
 `;
 
 const StyledH2 = styled(H2)`
+    font-family: 'Young Serif';
     margin: 0;
     color: ${(props) => props.theme.darkRaspberry};
 `;
