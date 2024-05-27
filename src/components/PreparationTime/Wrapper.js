@@ -1,13 +1,9 @@
-import styled from 'styled-components';
-
-const Box = styled.div`
-    display: flex;
-    background-color: #f8acd2;
-`;
+import styled from "styled-components";
 
 const Wrapper = styled.div`
-    display: flex;
-    background-color: #f8acd2;
+    display: grid;
+    background-color: ${(props) => props.theme.roseWhite};
+    border
 `;
 
 export default Wrapper;

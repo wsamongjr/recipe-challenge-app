@@ -1,11 +1,15 @@
-import './App.css';
-import RecipePage from 'containers/RecipePage';
+import { ThemeProvider } from "styled-components";
+import "./App.css";
+import RecipePage from "containers/RecipePage";
+import Theme from "./Theme";
 
 function App() {
     return (
-        <div className="App">
-            <RecipePage />
-        </div>
+        <ThemeProvider theme={Theme}>
+            <div className="App">
+                <RecipePage />
+            </div>
+        </ThemeProvider>
     );
 }
 
