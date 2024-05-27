@@ -1,0 +1,13 @@
+/* .recipe-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.recipe-page {
+    margin: 3% 6%;
+}
+
+.recipe-page .banner {
+    width: 100%;
+}
