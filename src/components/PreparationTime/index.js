@@ -9,7 +9,7 @@ const StyledPreparationTime = styled.div`
 
 const StyledH2 = styled(H2)`
     font-weight: 400;
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     margin: 0;
     color: ${(props) => props.theme.darkRaspberry};
 `;

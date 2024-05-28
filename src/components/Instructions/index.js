@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import H1 from "components/H1";
-import Wrapper from "./Wrapper";
+import styled from 'styled-components';
+import H1 from 'components/H1';
+import Wrapper from './Wrapper';
 
 const StyledH1 = styled(H1)`
-    font-family: "Young Serif";
+    font-family: 'Young Serif', serif;
     margin: 0;
     font-size: 2.5em;
     color: ${(props) => props.theme.nutmeg};
