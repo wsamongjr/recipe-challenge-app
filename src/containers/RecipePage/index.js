@@ -10,8 +10,16 @@ import styled from 'styled-components';
 
 const StyledBanner = styled.div`
     margin: 4%;
+    .banner {
+        width: 100%;
+        border-radius: 25px;
+    }
+
     @media (${(props) => props.theme.mediaQuery.mobile}) {
         margin 0;
+        .banner {
+            border-radius: 0;
+        }
     }
 `;
 
