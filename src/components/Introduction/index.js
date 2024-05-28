@@ -3,8 +3,7 @@ import Wrapper from './Wrapper';
 import styled from 'styled-components';
 
 const StyledH1 = styled(H1)`
-    font-size: 2.5em;
-    font-weight: 600;
+    font-weight: 400;
     text-align: left;
     margin-top: 3px;
 `;
