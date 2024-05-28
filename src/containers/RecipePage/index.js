@@ -5,7 +5,7 @@ import Nutrition from 'components/Nutrition';
 import Banner from 'components/Banner';
 import MainContainer from 'components/MainContainer';
 import Introduction from 'components/Introduction';
-import './styles.css';
+import './styles.scss';
 import styled from 'styled-components';
 
 const StyledBanner = styled.div`

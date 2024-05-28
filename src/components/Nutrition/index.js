@@ -1,31 +1,31 @@
-import styled from "styled-components";
-import H1 from "components/H1";
-import Wrapper from "./Wrapper";
-import TableList from "components/FlexTableList";
-import TableRow from "components/FlexTableList/row";
-import StyledFlexRowItem from "components/FlexTableList/StyledFlexRowItem";
+import styled from 'styled-components';
+import H1 from 'components/H1';
+import Wrapper from './Wrapper';
+import TableList from 'components/FlexTableList';
+import TableRow from 'components/FlexTableList/row';
+import StyledFlexRowItem from 'components/FlexTableList/StyledFlexRowItem';
 
 const nutritions = [
     {
-        name: "Calories",
-        value: "277kcal",
+        name: 'Calories',
+        value: '277kcal',
     },
     {
-        name: "Carbs",
-        value: "0g",
+        name: 'Carbs',
+        value: '0g',
     },
     {
-        name: "Protein",
-        value: "20g",
+        name: 'Protein',
+        value: '20g',
     },
     {
-        name: "Fat",
-        value: "22g",
+        name: 'Fat',
+        value: '22g',
     },
 ];
 
 const StyledH1 = styled(H1)`
-    font-family: "Young Serif";
+    font-family: 'Young Serif', serif;
     margin: 0;
     font-size: 2.5em;
     color: ${(props) => props.theme.nutmeg};
@@ -40,7 +40,7 @@ const FlexTable = () => {
     return (
         <TableList>
             {nutritions.map(({ name, value }) => (
-                <TableRow className="table-row">
+                <TableRow key={name + new Date().getTime()} className="table-row">
                     <StyledFlexRowItem className="row-item">{name}</StyledFlexRowItem>
                     <StyledFlexRowItem className="row-item">
                         <StyledSpanValue>{value}</StyledSpanValue>
