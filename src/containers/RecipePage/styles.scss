@@ -1,0 +1,27 @@
+body {
+    font-family: 'Outfit';
+}
+
+.recipe-page {
+    margin: 3% 6%;
+
+    p,
+    li {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-family: 'Young Serif';
+        font-weight: 400;
+    }
+
+    .section {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .border-b {
+        padding-bottom: 2em;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+}
