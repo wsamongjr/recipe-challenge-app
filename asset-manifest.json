@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/recipe-challenge-app/static/css/main.667be810.css",
+    "main.js": "/recipe-challenge-app/static/js/main.d1cd6c40.js",
+    "static/js/453.e77d9ef1.chunk.js": "/recipe-challenge-app/static/js/453.e77d9ef1.chunk.js",
+    "static/media/image-omelette.jpeg": "/recipe-challenge-app/static/media/image-omelette.98c8ed59c5ae707e58ea.jpeg",
+    "index.html": "/recipe-challenge-app/index.html",
+    "main.667be810.css.map": "/recipe-challenge-app/static/css/main.667be810.css.map",
+    "main.d1cd6c40.js.map": "/recipe-challenge-app/static/js/main.d1cd6c40.js.map",
+    "453.e77d9ef1.chunk.js.map": "/recipe-challenge-app/static/js/453.e77d9ef1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667be810.css",
+    "static/js/main.d1cd6c40.js"
+  ]
+}
